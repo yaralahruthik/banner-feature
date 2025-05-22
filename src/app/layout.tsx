@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex h-svh flex-col">
-          <Banner />
+          <Banner id="test" />
           <Header />
           <main className="container mx-auto grow">{children}</main>
           <Footer />
